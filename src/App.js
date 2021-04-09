@@ -16,6 +16,7 @@ function submitHandler(e) {
   axios.post('https://sheet.best/api/sheets/4b708e86-ec8a-4aa7-9e0b-fb725149d66b', e)
   .then(response => {
     console.log(response);
+    alert('Splendidly! Your form has been sent to the Google sheet!')
   })
 }
 
